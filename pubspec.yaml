@@ -1,0 +1,30 @@
+name: duo_duo_to_do
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  material_design_icons_flutter: ^6.0.0
+  intl: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: myIcon
+      fonts:
+        - asset: fonts/iconfont.ttf

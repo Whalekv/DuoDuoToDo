@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1318519",
+      "name": "宇宙星球-13",
+      "font_class": "yuzhouxingqiu-13",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "2569866",
+      "name": "排行榜",
+      "font_class": "paihangbang",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "2815738",
+      "name": "笑脸",
+      "font_class": "xiaolian",
+      "unicode": "e555",
+      "unicode_decimal": 58709
+    },
+    {
+      "icon_id": "16399029",
+      "name": "图片识别",
+      "font_class": "tupianshibie",
+      "unicode": "e85f",
+      "unicode_decimal": 59487
+    },
+    {
+      "icon_id": "25290717",
+      "name": "新建计划",
+      "font_class": "xinjianjihua",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    }
+  ]
+}
