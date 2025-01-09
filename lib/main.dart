@@ -2,6 +2,7 @@ import 'package:duo_duo_to_do/widgets/task_edit_page.dart';
 import 'package:flutter/material.dart';
 import 'myFont.dart';
 import 'pages/list_page.dart';
+import 'pages/personal_center_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -54,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
         currentPage = ListPage(key: listPageKey);
         break;
       case 3:
-        currentPage = Placeholder();
+        currentPage = PersonalCenterPage();
         break;
       default:
         throw UnimplementedError('no widget for $_selectedIndex');
