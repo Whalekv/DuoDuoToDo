@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 import 'myFont.dart';
 import 'pages/list_page.dart';
 import 'pages/personal_center_page.dart';
+import 'database/database_helper.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await DatabaseHelper.instance.database;
   runApp(const MyApp());
 }
 
